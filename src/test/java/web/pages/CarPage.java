@@ -29,4 +29,13 @@ public class CarPage extends AbstractPage
 
     @FindBy(css = ".searchResultsRowClass tr:nth-child(2) .searchResultsLargeThumbnail a")
     public WebElement secondRow;
+
+    @FindBy(name = "price_min")
+    public WebElement priceMinInput;
+
+    @FindBy(name = "price_max")
+    public WebElement priceMaxInput;
+
+    @FindBy(css = "button.btn.btn-link.js-manual-search-button")
+    public WebElement advancedSearchButtonForPrice;
 }
