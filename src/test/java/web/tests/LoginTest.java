@@ -13,7 +13,7 @@ public class LoginTest
     public void testLogin() throws Exception
     {
         // Optional, if not specified, WebDriver will search your path for chromedriver.
-        System.setProperty("webdriver.chrome.driver", "/opt/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "D:\\opt\\chromedriver.exe");
 
         // initialize webdriver
         WebDriver driver = new ChromeDriver();
